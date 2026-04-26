@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cars img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
